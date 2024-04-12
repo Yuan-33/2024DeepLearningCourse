@@ -1,0 +1,105 @@
+D:\anaconda\envs\monodepth2\python.exe "D:\everything_u_need\2023_2024_12\deep learning\project2\resnet_cifar.py"
+Files already downloaded and verified
+Files already downloaded and verified
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 64, 32, 32]           1,728
+       BatchNorm2d-2           [-1, 64, 32, 32]             128
+            Conv2d-3           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-4           [-1, 64, 32, 32]             128
+           Dropout-5           [-1, 64, 32, 32]               0
+            Conv2d-6           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-7           [-1, 64, 32, 32]             128
+        BasicBlock-8           [-1, 64, 32, 32]               0
+            Conv2d-9           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-10           [-1, 64, 32, 32]             128
+          Dropout-11           [-1, 64, 32, 32]               0
+           Conv2d-12           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-13           [-1, 64, 32, 32]             128
+       BasicBlock-14           [-1, 64, 32, 32]               0
+           Conv2d-15           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-16           [-1, 64, 32, 32]             128
+          Dropout-17           [-1, 64, 32, 32]               0
+           Conv2d-18           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-19           [-1, 64, 32, 32]             128
+       BasicBlock-20           [-1, 64, 32, 32]               0
+           Conv2d-21          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-22          [-1, 128, 16, 16]             256
+          Dropout-23          [-1, 128, 16, 16]               0
+           Conv2d-24          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-25          [-1, 128, 16, 16]             256
+           Conv2d-26          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-27          [-1, 128, 16, 16]             256
+       BasicBlock-28          [-1, 128, 16, 16]               0
+           Conv2d-29          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-30          [-1, 128, 16, 16]             256
+          Dropout-31          [-1, 128, 16, 16]               0
+           Conv2d-32          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-33          [-1, 128, 16, 16]             256
+       BasicBlock-34          [-1, 128, 16, 16]               0
+           Conv2d-35          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-36          [-1, 128, 16, 16]             256
+          Dropout-37          [-1, 128, 16, 16]               0
+           Conv2d-38          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-39          [-1, 128, 16, 16]             256
+       BasicBlock-40          [-1, 128, 16, 16]               0
+           Conv2d-41            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-42            [-1, 256, 8, 8]             512
+          Dropout-43            [-1, 256, 8, 8]               0
+           Conv2d-44            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-45            [-1, 256, 8, 8]             512
+           Conv2d-46            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-47            [-1, 256, 8, 8]             512
+       BasicBlock-48            [-1, 256, 8, 8]               0
+           Conv2d-49            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-50            [-1, 256, 8, 8]             512
+          Dropout-51            [-1, 256, 8, 8]               0
+           Conv2d-52            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-53            [-1, 256, 8, 8]             512
+       BasicBlock-54            [-1, 256, 8, 8]               0
+           Linear-55                   [-1, 10]          10,250
+================================================================
+Total params: 3,154,762
+Trainable params: 3,154,762
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 16.75
+Params size (MB): 12.03
+Estimated Total Size (MB): 28.80
+----------------------------------------------------------------
+Epoch # 1, Train Accuracy: 49.76%, Test Accuracy: 58.25%
+Epoch # 2, Train Accuracy: 66.14%, Test Accuracy: 68.96%
+Epoch # 3, Train Accuracy: 73.46%, Test Accuracy: 76.53%
+Epoch # 4, Train Accuracy: 77.88%, Test Accuracy: 79.98%
+Epoch # 5, Train Accuracy: 80.93%, Test Accuracy: 82.31%
+Epoch # 6, Train Accuracy: 83.79%, Test Accuracy: 80.80%
+Epoch # 7, Train Accuracy: 85.68%, Test Accuracy: 83.41%
+Epoch # 8, Train Accuracy: 87.31%, Test Accuracy: 84.78%
+Epoch # 9, Train Accuracy: 88.43%, Test Accuracy: 84.41%
+Epoch #10, Train Accuracy: 89.63%, Test Accuracy: 85.25%
+Epoch #11, Train Accuracy: 90.14%, Test Accuracy: 87.51%
+Epoch #12, Train Accuracy: 91.01%, Test Accuracy: 88.51%
+Epoch #13, Train Accuracy: 91.78%, Test Accuracy: 86.66%
+Epoch #14, Train Accuracy: 92.18%, Test Accuracy: 88.69%
+Epoch #15, Train Accuracy: 92.78%, Test Accuracy: 88.99%
+Epoch #16, Train Accuracy: 94.92%, Test Accuracy: 91.25%
+Epoch #17, Train Accuracy: 96.30%, Test Accuracy: 92.11%
+Epoch #18, Train Accuracy: 96.97%, Test Accuracy: 92.56%
+Epoch #19, Train Accuracy: 97.49%, Test Accuracy: 92.68%
+Epoch #20, Train Accuracy: 97.73%, Test Accuracy: 92.81%
+Epoch #21, Train Accuracy: 97.78%, Test Accuracy: 92.86%
+Epoch #22, Train Accuracy: 97.83%, Test Accuracy: 92.71%
+Epoch #23, Train Accuracy: 97.94%, Test Accuracy: 92.78%
+Epoch #24, Train Accuracy: 97.96%, Test Accuracy: 92.82%
+Epoch #25, Train Accuracy: 97.90%, Test Accuracy: 92.84%
+Epoch #26, Train Accuracy: 97.80%, Test Accuracy: 92.86%
+Epoch #27, Train Accuracy: 97.94%, Test Accuracy: 92.75%
+Epoch #28, Train Accuracy: 98.10%, Test Accuracy: 92.79%
+Epoch #29, Train Accuracy: 97.99%, Test Accuracy: 92.85%
+Epoch #30, Train Accuracy: 97.94%, Test Accuracy: 92.91%
+[49.75783248691607, 66.13570971562125, 73.46027813604115, 77.87603900560637, 80.92631074168798, 83.7879635641337, 85.68014706797003, 87.30578645111045, 88.43070652783679, 89.63115408902279, 90.14026534831737, 91.00943094934038, 91.77749361223577, 92.17870843684886, 92.77533568689586, 94.91807864145245, 96.29795397334087, 96.96970908233273, 97.4900095968905, 97.73057865364777, 97.77973146389817, 97.82888427414858, 97.93837916515672, 97.95955882962707, 97.90281330228157, 97.80051151809789, 97.94037724699815, 98.09622763062987, 97.99272698514602, 97.93957801121275]
+Accuracy = 92.91%
+
+Process finished with exit code 0
